@@ -11,6 +11,7 @@ export default createStore({
   },
   actions: {
     getPosts(context, payload) {
+      console.log(payload);
       context.commit('GET_POSTS', payload);
     }
   },
